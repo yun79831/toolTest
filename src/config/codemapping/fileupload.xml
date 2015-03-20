@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="GBK"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd">
+	
+
+	<!-- 上传配置 -->
+	<constant id="global">
+		<item key="endocing" value="GBK" label="编码"/>
+		<item key="maxMemorySize" value="62M" label="最大内存使用量"/>
+		<item key="maxSingleSize" value="60M" label="单个文件最大字节数"/>
+		<item key="maxTotalSize" value="100M" label="总上传文件最大字节数"/>
+		<item key="temporaryDir" value="${webhome}/WEB-INF/upload/temp" label="上传文件保存的临时目录"/>
+		<item key="allowFiletype" value="jpg,jpeg,bmp,gif,png" label="允许的上传文件类型(类型必须是小写)"/>
+	</constant>
+	
+	<constant id="xls">
+		<item key="endocing" value="GBK" label="编码"/>
+		<item key="maxMemorySize" value="10M" label="最大内存使用量"/>
+		<item key="maxSingleSize" value="10M" label="单个文件最大字节数"/>
+		<item key="maxTotalSize" value="10M" label="总上传文件最大字节数"/>
+		<item key="temporaryDir" value="${webhome}/WEB-INF/upload/temp" label="上传文件保存的临时目录"/>
+		<item key="allowFiletype" value="xls" label="允许的上传文件类型(类型必须是小写)"/>
+	</constant>
+	
+	<constant id="doc">
+		<item key="endocing" value="GBK" label="编码"/>
+		<item key="maxMemorySize" value="10M" label="最大内存使用量"/>
+		<item key="maxSingleSize" value="30M" label="单个文件最大字节数"/>
+		<item key="maxTotalSize" value="30M" label="总上传文件最大字节数"/>
+		<item key="temporaryDir" value="${webhome}/WEB-INF/upload/temp" label="上传文件保存的临时目录"/>
+		<item key="allowFiletype" value="doc" label="允许的上传文件类型(类型必须是小写)"/>
+	</constant>	
+	
+	<!-- 辅助配置 -->
+	<constant id="imagetype">
+		<item key="jpg" value="jpg" />
+		<item key="jpeg" value="jpeg" />
+		<item key="ico" value="ico" />
+		<item key="bmp" value="bmp" />
+		<item key="gif" value="gif" />
+		<item key="png" value="png" />
+	</constant>
+	
+	<constant id="word">
+		<item key="autosave" value="5" label="单位是分钟"/>
+		<item key="maxsize" value="1024*1024*30" label="单位是字节"/>
+	</constant>
+		
+	<constant id="filenumber">
+		<item key="base" value="2" />
+	</constant>
+	
+	<constant id="printdownloadurl">
+	<item key="ExpertList" value="e://ExpertList" label="专家名单"></item>
+	</constant>
+	
+	<!-- <constant id="printdownloadurl">
+	<item key="ExpertList" value="//opt//upload//ExpertList" label="专家名单"></item>
+	</constant> -->
+	<constant id="sync">
+		<item key="logurl" value="e:/log.txt" label="同步专家分析日志"/>	
+		<item key="failurl" value="e:/fail.txt" label="同步专家分析日志"/>	
+	</constant>
+</constants>

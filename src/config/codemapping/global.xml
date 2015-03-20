@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd"> 
+	
+	<constant id="gender">
+		<item key="male" value="1" label="男"/>
+		<item key="female" value="0" label="女"/>
+	</constant>
+	
+	<constant id="yesno">
+		<item key="yes" value="1" label="是"/>
+		<item key="no" value="0" label="否"/>
+	</constant>
+
+
+</constants>

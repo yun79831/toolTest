@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd"> 	
+	<constant id="logintime">
+		<item key="times" value="10" label="登录次数限制"/>
+	</constant>
+</constants>
+
+
+
+

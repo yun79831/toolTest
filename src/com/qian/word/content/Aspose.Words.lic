@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Beijing Miracle Hi-Tech CO., LTD</LicensedTo>
+    <LicenseType>Developer Enterprise Subscription</LicenseType>
+    <LicenseNote>Limited to 1 developer.</LicenseNote>
+    <OrderID>100514031204</OrderID>
+    <OEM>This is not a non-redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Words for Java</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>9f2bc35f-9379-43ca-a7eb-520eaed3aee5</SerialNumber>
+    <SubscriptionExpiry>20110514</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>rHKVbO+73oRJ2Cu8HaXlT2zR8sCrZAnKIhviQ1m95BQmGT32dvs2wxztGlGq6Aa4FnVUkLC++Wqk64zmQKDvKsB8+GZrAfdnJsLmkNJj9miIeEkKwNxa2R9OfsBV4UQusiA1Xvd8S32Yb7s2XnwODOrPjDSCm63vnD8MdykTUNA=</Signature>
+</License>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>this is ri he gang</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	
+	<link href="/commons/js/tree/dtree/dtree.css" rel="stylesheet"	type="text/css" />
+	<script type="text/javascript"	src="/commons/js/tree/dtree/dtree.js"></script>
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+  </head>
+  
+  <body>
+  <div id="mytree"><!--创建一个div层，指定class为“dtree”，此时该层就引用了dtree的样式 -->  
+    <script type="text/javascript">  
+        d = new dTree('d');//new一个树对象  
+        //设置树的节点及其相关属性  
+		d.add(0,-1,'文章目录');
+		d.add(3,0,'技术与方案','admin.php?module=article&action=catelist&cid=3','','_blank');
+		d.add(5,0,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(34,5,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(35,34,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(36,35,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(37,36,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(38,37,'新闻中心','admin.php?module=article&action=catelist&cid=5');
+		d.add(7,6,'网络知识','admin.php?module=article&action=catelist&cid=7');
+		d.add(8,6,'配置手册','admin.php?module=article&action=catelist&cid=8');
+		d.add(9,6,'网络安全','admin.php?module=article&action=catelist&cid=9');
+		d.add(10,3,'解决方案','admin.php?module=article&action=catelist&cid=10');
+		d.add(11,10,'局域网','admin.php?module=article&action=catelist&cid=11');
+		d.add(12,10,'宽带接入','admin.php?module=article&action=catelist&cid=12');
+		d.add(6,3,'网络技术','admin.php?module=article&action=catelist&cid=6');
+	
+        //config配置，设置文件夹不能被链接，即有子节点的不能被链接。  
+        d.config.folderLinks=false;  
+        document.write(d);  
+        d.openAll();
+		d.openTo(2, true); 
+    </script>  
+  </div>
+   <br>
+  </body>
+</html>

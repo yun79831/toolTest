@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd">
+	
+	<constant id="global">
+		<item key="pageSize" value="12" label="每页显示的记录数"/>
+	</constant>
+
+</constants>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd"> 
+	
+	<constant id="loginAccount">
+		<item key="accounts" value="false" label="登录限制"/>
+	</constant>
+	<constant id="searchYear">
+		<item key="beginYear" value="2008" label="起始年度"/>
+	</constant>
+	<constant id="pwd">
+		<item key="expert" value="123456" label="专家重置密码"/>
+		<item key="company" value="123456" label="单位重置密码"/>
+		<item key="center" value="123456" label="中心重置密码"/>
+	</constant>
+</constants>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<constants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="codemapping.xsd"> 
+	
+	
+	
+	
+	<!-- 此系统中未使用此内容 -->
+	
+	
+	
+	
+	<constant id="titleprefix">
+		<item key="applybaseon" value="false" label="立项依据提示前缀"/>
+		<item key="applyresearchcontent" value="false" label="研究内容提示前缀"/>
+		<item key="applyresearchplan" value="false" label="研究方案提示前缀"/>
+		<item key="applyresearchbasedon" value="true" label="研究基础提示前缀"/>
+		<item key="applyfeasibilityanalysis" value="false" label="项目可行性分析提示前缀"/>
+		<item key="taskbookadjust" value="false" label="对原研究方案的调整提示前缀"/>
+	</constant>
+	
+	<!-- 项目说明 -->
+	<constant id="titleprefix">
+		<item  value="1类" label="基础研究类"/>
+		<item  value="2类" label="技术发明、技术开发、重大工程、社会公益类项目"/>
+		<item  value="6类" label="软科学研究类项目"/>
+		<item  value="7类" label="科学技术普及类项目"/>
+	</constant>
+	
+	<!-- 页面上显示的小标题 -->
+	<constant id="title">
+		<item key="applyProjectBrief" 			value="项目简介（可公开宣传，限800字）" label="项目简介"/>
+		<item key="applyProjectBaseInfo" 		value="项目基本信息" label="项目基本信息"/>
+		<item key="applyProjectType1MajorPoint" 		value="主要发现点（限1600字）" label="主要发现点"/>
+		<item key="applyProjectType2MajorPoint" 		value="主要技术创新点（限1600字）" label="主要技术创新点"/>
+		<item key="applyProjectType6MajorPoint" 		value="主要创新点（限1600字）" label="主要创新点"/>
+		<item key="applyProjectType7MajorPoint" 		value="主要创新点（限1600字）" label="主要创新点"/>
+		<item key="applyProjectBackground" 		value="立项背景（限800字）" label="立项背景"/>
+		<item key="applyProjectDetailContent" 	value="项目详细内容（请上传附件）" label="项目详细内容"/>
+		<item key="applyAward" 					value="获科技奖励情况" label="获科技奖励情况"/>
+		<item key="applyMajorCandUnit" 	value="主要候选单位情况" label="主要候选单位情况"/>
+		<item key="applyMajorCandPerson" 	value="主要候选人情况" label="主要候选人情况"/>
+		<item key="applyKnowProp" 		value="知识产权目录" label="知识产权目录"/>
+		<item key="applyMajorTechDir" 	value="技术评价证明目录" label="技术评价证明目录"/>
+		<item key="applyCommendOrg" 		value="推荐单位信息" label="推荐单位信息"/>
+		<item key="applyMajorRiderDir" 	value="主要附件目录及附件上传" label="主要附件目录及附件上传"/>
+		<item key="applyArticle" 			value="科普文章" label="科普文章"/>
+		<item key="applyBooks" 			value="主要论文著作发表情况" label="主要论文著作发表情况"/>
+		<item key="applyProjectType2ApplyExpand" 	value="应用情况及推广程度（限800字）" label="应用情况及推广程度"/>
+		<item key="applyProjectType6ApplyExpand" 	value="被有关部门采用情况（限800字）" label="6类-被有关部门采用情况"/>
+		<item key="applyProjectType2DrivingForce" value="推动技术进步的作用（限800字）" label="2类-推动技术进步的作用"/>
+		<item key="applyProjectType6DrivingForce" value="对本市决策科学化和管理现代化的作用（限800字）" label="6类-对本市决策科学化和管理现代化的作用"/>
+		<item key="applyProjectType2Econmoice" 	value="经济效益（社会公益类项目可以不填此栏） 单位：万元人民币" label="2类-经济效益"/>
+		<item key="applyProjectType6Econmoice" 	value="经济效益（无法计算直接经济效益的项目，可以不填此栏。） 单位：万元人民币" label="6类-经济效益"/>
+		<item key="applyProjectType7Econmoice" 	value="经济效益（无法计算直接经济效益的项目，可以不填此栏。） 单位：万元人民币" label="7类-经济效益"/>
+		<item key="applyEconmoiceSummary" 		value="经济效益综述（限800字）" label="经济效益综述"/>
+		<item key="applyProjectType2SocialBenefit" value="社会效益（生态效益、环境效益）（限800字）" label="2类-社会效益"/>
+		<item key="applyProjectType6SocialBenefit" value="社会效益" label="6类-社会效益"/>
+		<item key="applyProjectType7SocialBenefit" value="社会效益（限800字）" label="7类-社会效益"/>
+		<item key="applyProjectType2Effect" value="对本市经济、社会发展的推动作用（限800字）" label="2类-对本市经济、社会发展的推动作用"/>
+		<item key="applyProjectType6Effect" value="与本市经济、社会、科技发展需求的紧密程度（限800字）" label="6类-与本市经济、社会、科技发展需求的紧密程度"/>
+		<item key="applyPopularity" value="普及情况（限800字）" label="7类独有-普及情况"/>
+		<item key="applyTechSandardDir" value="产品的技术标准目录" label="2类独有-产品的技术标准目录"/>
+		<item key="applyTestReportDir" value="检测机构出具的产品检测报告等目录" label="2类独有-检测机构出具的产品检测报告等目录"/>
+		<item key="applyTradeApproveDir" value="国家法律法规要求的行业审批文件等目录" label="2类独有-国家法律法规要求的行业审批文件等目录"/>
+		<item key="applyProjectType2ApplCertDir" value="应用证明材料目录" label="应用证明材料目录"/>
+		<item key="applyProjectType6ApplCertDir" value="实际应用或采纳单位出具的证明目录" label="实际应用或采纳单位出具的证明目录"/>
+		<item key="applyFinish" value="立项或结题验收的情况介绍（限800字）" label="立项或结题验收的情况介绍"/>
+		<item key="applyProofInfo" value="主要证明材料的具体内容" label="主要证明材料的具体内容"/>
+	</constant>
+
+	<!-- 页面上引入的js文件先不用处理，在写代码的时候根据实际情况进行处理 -->
+	<constant id="validatormodule">
+		<item key="projectbaseinfo" label="项目基本信息">
+			<value>
+			<![CDATA[ projectbaseinfo.js ]]>
+			</value> 
+		</item>
+	</constant>
+	
+	<!-- 页面上的一些说明 -->
+	<constant id="hint">
+		<item key="applyProjectType1Brief" label="项目简介-基础研究类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			项目所属科学技术领域、主要研究内容、科学价值及同行引用评价情况
+
+
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType2Brief" label="项目简介-技术发明、技术开发、重大工程、社会公益类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			项目所属科学技术领域、主要研究开发内容、解决的主要技术问题、技术创新点与创新程度、技术经济指标、促进科技进步的作用、推广应用及经济或社会效益
+
+
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType6Brief" label="项目简介-软科学研究类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			项目主要研究内容，解决的主要问题，项目创新点，被有关部门采用情况，对推动决策科学化和管理现代化、促进科技经济社会协调发展所起的作用
+
+
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType7Brief" label="项目简介-科学技术普及类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			应客观、准确、扼要地介绍项目主要内容、科普作品的受众、创新手法、表现形式、传播科学技术知识、出版发行情况等
+
+
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType1ProjectDetailContent" label="项目详细内容-基础研究类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			详细科学研究内容 (限20页)<br/>
+		    （1）总体思路<br/>
+		    （2）研究成果<br/>
+		    （3）科学价值<br/>
+		    （4）学术界公认程度<br/>
+		    （5）与当前国内外同类研究的综合比较
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType2ProjectDetailContent" label="项目详细内容-技术发明、技术开发、重大工程、社会公益类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			详细技术内容（总体思路、技术方案, 限20页）
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType6ProjectDetailContent" label="项目详细内容-软科学研究类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			详细研究内容（总体思路与研究方法、主要研究内容与结果、科学价值，限20页）
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyProjectType7ProjectDetailContent" label="项目详细内容-科学技术普及类项目">
+			<value>
+			<![CDATA[<div class="tip">
+			详细技术内容（立项背景、创作思路、主要章节内容、与国内同类科普作品的比较等，限20页）
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyMajorCandPerson" label="主要候选人情况">
+			<value>
+			<![CDATA[<div class="tip">
+			1:当为第一和第二候选人时表格内容和其它候选人内容不同<br/>
+			2:本表一经提交将无法修改！提交后您可以下载打印
+			
+
+			</div>  ]]>
+			</value> 
+		</item>
+		<item key="applyMajorRiderDir" label="主要附件目录">
+			<value>
+			<![CDATA[<div class="tip">
+			一、必须提交的附件 <br/>
+			候选单位组织机构代码证书复印件或企业营业执照复印件 <br/>
+			成果登记证书封面页 <br/>
+			论文及引用《检索报告书》：只提供检索报告的封面页及检索结论（须提供带红章原件1份）  <br/>
+			二、已录入内容相关的附件 <br/>
+			《10篇代表性论文、著作》<br/>
+			《论文（论著）被收录和被他人论文（论著）正面引用证明》<br/>
+			论文及引用《检索报告书》<br/>
+			主要技术评价证明<br/>
+			知识产权<br/>
+			三、其他附件（与国外合作完成项目提交国外合作者或合作机构提供的书面证明等）  <br/>
+			四、请按照下示格式自行编写目录及序号，并按序号顺序上传附件
+			
+
+			</div>  ]]>
+			</value> 
+		</item>
+	</constant>		
+
+</constants>
